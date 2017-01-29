@@ -1,4 +1,17 @@
 body {
-	background-color: blue;
+	background-image: url(sayagata.png);
 
+}
+
+/*Main page line*/
+.main-name {
+	color: white;
+	text-align: 10px;
+	background-color: #647;
+	margin: 35px;	
+}
+
+/*Connect Box*/
+.connect-box1 {
+	
 }
