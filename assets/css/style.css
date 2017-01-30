@@ -1,7 +1,7 @@
 
 body {
 	background-image: url(horns.png);
-
+	width: 960px;
 	}
 
 
@@ -53,29 +53,48 @@ li a:hover {
 
 /*Connect Box Formatting*/
 aside {
-	padding: 2%;
-	margin: 3%;
+	padding: %;
+	margin: %;
 	background-color: transparent;
 	float: right;
 	border-style: double;
 	border-color: #236;
 	font-style: sans-serif;
+	width: 270px;
 	}
 
-.connect-box1 {
+.connect-box {
 	background-color: transparent;
+	color: #236;
 	font-style: sans-serif;
 	font-size: 25px;
 	text-align: center;
 	text-decoration: underline;
+	width: 270px;
+	height: auto;
 	}
-		
+
+.stack {
+	padding-left: 15px;
+	}
+
+.git {
+	padding-right: 10px;
+	object-position: center;
+	padding-left: 5px
+	}
+
+.link {
+	padding-left: 5px
+	padding-right: 8px;
+	}
+/*END connect box formatting*/
 
 
 /*Contact Page - Send me a mesg. box*/
 section {
 	background-color: ;
-	padding: 0px;
+	padding-left: 20px;
 	margin: 0px;
 	text-align: left;
 	float: left;
@@ -90,6 +109,8 @@ input {
 	padding-bottom: 5px;
 	}
 
+
+
 /* Formatting submit button*/
 .submitbtn {
 	background-color: #236;
@@ -102,12 +123,10 @@ input {
 .aboutme {
 	float:left;
 	background-color: gainsboro;
-	margin: ;
-	padding-left: 40px;
-	padding-right: 40px;
-	margin: 20px;
+	margin-bottom: 20px;
 	border-color: #236;
-	border-style: solid;
+	border-style: double;
+	width: 650px;
 	}
 h2 {
 	color: #f55;
@@ -118,9 +137,38 @@ h2 {
 	margin: 0px;
 	padding: 0px;
 	}
+.profimage {
+	float:left;
+	width: 50%
+	height: auto;
+	margin-bottom: 30px;
+	margin-right: 20px
+	margin-left: 10px;
+	padding-left: 10px;
+	}
+
+.aboutmetxt {
+	float:left;
+	margin-left: 10px;
+	width: 425px
+	}
+/*END about me formatting*/
+
 
 /*Portfolio page formatting*/
+.comingsoon1 {
+	padding-left: 75px;
 
+	}
+
+.projectport {
+	text-align: center;
+	font-size: 40px;
+	padding-left: 80px;
+	font-style: Georgia;
+	color: #236;
+
+}
 
 
 /*Footer Formatting*/
@@ -128,7 +176,7 @@ footer {
 	clear: left;
 	padding: 10px;
 	background-color: #f55; 
-	text-decoration: bold;
+	text-align: center;
 	}
 
 
