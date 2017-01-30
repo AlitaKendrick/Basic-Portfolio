@@ -158,7 +158,6 @@ h2 {
 /*Portfolio page formatting*/
 .comingsoon1 {
 	padding-left: 75px;
-
 	}
 
 .projectport {
@@ -167,8 +166,80 @@ h2 {
 	padding-left: 80px;
 	font-style: Georgia;
 	color: #236;
+	}
 
-}
+.project1 {
+	position: absolute;
+	left: 103px;
+	top: 250px;
+	z-index: 1;
+	color: #236;
+	background-color: white;
+	width: 12.9%;
+	height: 3%;
+	text-align: center;
+	}
+
+.project2 {
+	position: absolute;
+	left: 256.5px;
+	top: 250px;
+	z-index: 1;
+	color: #f55;
+	background-color: white;
+	width: 13%;
+	height: 3%;
+	text-align: center;
+	}
+
+.project3 {
+	position: absolute;
+	left: 410.5px;
+	top: 250px;
+	z-index: 1;
+	color: #236;
+	background-color: white;
+	width: 13%;
+	height: 3%;
+	text-align: center;
+	}
+
+.project4 {
+	position: absolute;
+	left: 103px;
+	top: 405px;
+	z-index: 1;
+	color: #f55;
+	background-color: white;
+	width: 13%;
+	height: 3%;
+	text-align: center;
+	}
+
+.project5 {
+	position: absolute;
+	left: 256.5px;
+	top: 405px;
+	z-index: 1;
+	color: #236;
+	background-color: white;
+	width: 13%;
+	height: 3%;
+	text-align: center;
+	}
+
+.project6 {
+	position: absolute;
+	left: 410.5px;
+	top: 405px;
+	z-index: 1;
+	color: #f55;
+	background-color: white;
+	width: 13%;
+	height: 3%;
+	text-align: center;
+	}
+/*END portfolio page formatting*/
 
 
 /*Footer Formatting*/
