@@ -1,6 +1,6 @@
 
 body {
-	background-image: url(sayagata.png);
+	background-image: url(horns.png);
 
 	}
 
@@ -11,14 +11,14 @@ ul {
     margin-top: 30px;
     padding: 0px;
     overflow: hidden;
-    background-color: #333;
+    background-color: #46a;
     font-style: Georgia;
 	}
 
 /*Navigation Bar - float right*/
 li {
     float: right;
-    background-color: #333;
+    background-color: #46a;
     font-style: Georgia;
 	}
 
@@ -29,67 +29,106 @@ li a {
     text-align: center;
     padding: 25px 27px;
     text-decoration: none;
-    background-color: #333;
+    background-color: #46a;
     font-style: Georgia;
-}
+	}
 
 /*Navigation Bar - Name*/
 li.Main-Name {
 	color: white;
 	float: left;
 	font-size: 35px;
-	background-color: #647;
+	background-color: #46a;
 	padding: 14px 14px;
 	padding-left: 20px;
 	padding-right: 20px;
-
-}
+	font-style: Georgia;
+	}
 
 /*Nav Bar - Hover over to change bkgrnd of text*/
 li a:hover {
-	background-color: white;
+	background-color: #236;
 		}
 
 
-/*Connect Box*/
+/*Connect Box Formatting*/
 aside {
-	background-color: ;
-	margin: ;
-	padding-left: ;
+	padding: 2%;
+	margin: 3%;
+	background-color: transparent;
 	float: right;
-				}
+	border-style: double;
+	border-color: #236;
+	font-style: sans-serif;
+	}
 
-/*Contact Page - Contact me box*/
+.connect-box1 {
+	background-color: transparent;
+	font-style: sans-serif;
+	font-size: 25px;
+	text-align: center;
+	text-decoration: underline;
+	}
+		
+
+
+/*Contact Page - Send me a mesg. box*/
 section {
 	background-color: ;
 	padding: 0px;
 	margin: 0px;
 	text-align: left;
 	float: left;
-}
+	font-style: sans-serif;
+	}
 
 input {
-	width: 30%;
+	width: 100%;
 	margin-left: 0px;
 	clear: left;
-}
+	padding-top: 5px;
+	padding-bottom: 5px;
+	}
 
-/*Formatting Submit Button*/
-input[type=submit] {
-	background-color: ;
-	font-style: ;
+/* Formatting submit button*/
+.submitbtn {
+	background-color: #236;
+	color: white;
 	clear:left;
-}
+	}
 
 
 /*Aboutme Formatting*/
 .aboutme {
 	float:left;
-	background-color: blue;
-	margin: 40px 20px 50px 20px;
-}
+	background-color: gainsboro;
+	margin: ;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin: 20px;
+	border-color: #236;
+	border-style: solid;
+	}
+h2 {
+	color: #f55;
+	font-size: 30px;
+	font-style: ;
+	text-align: center;
+	text-decoration: underline;
+	margin: 0px;
+	padding: 0px;
+	}
+
+/*Portfolio page formatting*/
+
+
 
 /*Footer Formatting*/
 footer {
 	clear: left;
-}
+	padding: 10px;
+	background-color: #f55; 
+	text-decoration: bold;
+	}
+
+
