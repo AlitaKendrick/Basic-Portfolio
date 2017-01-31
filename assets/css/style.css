@@ -53,14 +53,14 @@ li a:hover {
 
 /*Connect Box Formatting*/
 aside {
-	padding: %;
-	margin: %;
 	background-color: transparent;
 	float: right;
 	border-style: double;
 	border-color: #236;
 	font-style: sans-serif;
 	width: 270px;
+	border-width: 3px;
+	margin-top: 5px;
 	}
 
 .connect-box {
@@ -126,7 +126,10 @@ input {
 	margin-bottom: 20px;
 	border-color: #236;
 	border-style: double;
-	width: 650px;
+	width: 600px;
+	border-width: 3px;
+	margin-top: 7px;
+	margin-left: 2px;
 	}
 h2 {
 	color: #f55;
@@ -170,7 +173,7 @@ h2 {
 
 .project1 {
 	position: absolute;
-	left: 103px;
+	left: 95px;
 	top: 250px;
 	z-index: 1;
 	color: #236;
@@ -182,7 +185,7 @@ h2 {
 
 .project2 {
 	position: absolute;
-	left: 256.5px;
+	left: 248px;
 	top: 250px;
 	z-index: 1;
 	color: #f55;
@@ -194,7 +197,7 @@ h2 {
 
 .project3 {
 	position: absolute;
-	left: 410.5px;
+	left: 403px;
 	top: 250px;
 	z-index: 1;
 	color: #236;
@@ -206,7 +209,7 @@ h2 {
 
 .project4 {
 	position: absolute;
-	left: 103px;
+	left: 95px;
 	top: 405px;
 	z-index: 1;
 	color: #f55;
@@ -218,7 +221,7 @@ h2 {
 
 .project5 {
 	position: absolute;
-	left: 256.5px;
+	left: 248px;
 	top: 405px;
 	z-index: 1;
 	color: #236;
@@ -230,7 +233,7 @@ h2 {
 
 .project6 {
 	position: absolute;
-	left: 410.5px;
+	left: 403px;
 	top: 405px;
 	z-index: 1;
 	color: #f55;
