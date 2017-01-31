@@ -1,1 +1,0 @@
-<?php include_once("desktop/heroku/index.html"); ?>
